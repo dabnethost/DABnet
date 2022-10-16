@@ -4,13 +4,6 @@ namespace DABnetUtils {
 
     namespace DABformat {
 
-
-        /**
-         * This structure will determine how the .dab files will be stored
-         * 
-         * @author Jack Zautner
-         * @date 15-10-2022
-        */
         class Structure {
 
             public:
