@@ -8,8 +8,7 @@ namespace DABnetUtils {
             
             Structure::dabFile d;
 
-
-
+            d.version = 1;
 
             return d;
         }
