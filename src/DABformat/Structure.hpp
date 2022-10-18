@@ -28,6 +28,7 @@ namespace DABnetUtils {
                     std::string name;                    // Name of config
                     std::string author;                  // Name of user who made this config
                     std::vector<portConfig> portConfigs; // Configurations for each individual port
+                    unsigned int numPorts;               // Number of ports occupied by cartriges
                     char magic[3] = { 'D', 'A', 'B' };   // Magic array for identifying the .dab binary
                 };
 
