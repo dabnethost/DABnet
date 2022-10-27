@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdexcept>
 
 namespace DABnetUtils::DABnetExceptions {
@@ -8,11 +10,10 @@ namespace DABnetUtils::DABnetExceptions {
      * @author Jack Zautner
      * @date 18-10-2022
     */
-    class VoltageOutOfBoundsException : public std::exception {
+    class VoltageOutOfBoundsException : public std::runtime_error {
 
-        /**
-         * @brief Called when exception is thrown (I believe)
-        */
-        char* what() const throw();
+        public:
+
+            VoltageOutOfBoundsException(char const* const message = "Voltage out of bounds");
     };
 }

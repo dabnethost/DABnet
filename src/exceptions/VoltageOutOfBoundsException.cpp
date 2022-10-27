@@ -2,8 +2,8 @@
 
 namespace DABnetUtils::DABnetExceptions {
 
-    char* VoltageOutOfBoundsException::what() const throw() {
-        return "Voltage is out of bounds";
+    VoltageOutOfBoundsException::VoltageOutOfBoundsException(char const* const message) : std::runtime_error(message) {
+        
     }
 
 }
