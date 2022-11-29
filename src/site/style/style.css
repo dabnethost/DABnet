@@ -20,12 +20,28 @@ p {
   letter-spacing: 5px;
 }
 
+.navbar {
+  height: 50px;
+  padding: 30px;
+  margin-bottom: 10px;
+  background: #000000;
+  color: white;
+}
+
+.other_links {
+  float: left;
+}
+
 .header {
   width: 100%;
-  padding:60px 0;
+  padding: 60px 0;
   text-align: center;
   background: #25ba2a;
   color: white;
+}
+
+#login_btn {
+  float: right;
 }
 
 
