@@ -49,12 +49,12 @@ namespace DABnetUtils {
                  * @bug it doesn't fucking run
                  */
                 struct dabFile {
-                    unsigned int fileSize;             // Size of file
-                    std::uint16_t version;             // Version of config
+                    std::uint32_t fileSize;            // Size of file
+                    std::uint8_t version;              // Version of config
                     std::string author;                // Name of user who made this config
                     std::string name;                  // Name of config 
                     std::uint8_t numPorts;             // Number of ports occupied by cartriges
-                    float voltages[numPorts];          // Array containing a voltage for each port (ERROR)
+                    std::vector<float> voltages;       // Array containing a voltage for each port
                     char magic[3] = { 'D', 'A', 'B' }; // Magic array for identifying the .dab binary
                 };
 
