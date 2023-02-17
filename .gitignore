@@ -13,4 +13,4 @@
 test/
 
 #hidden data
-/bot/token.py
+/bot/securetoken.py
