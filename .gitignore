@@ -11,3 +11,6 @@
 
 #test directory
 test/
+
+#hidden data
+/bot/token.py
