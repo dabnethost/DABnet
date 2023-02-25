@@ -10,7 +10,7 @@
 */
 
 //Pin assignment for PWM control of carts
-const int POT_VALUE = A0;     //Pin for potentiometer input
+const int POT_VALUE = A1;     //Pin for potentiometer input
 
 const int CART_ONE = 3;       //Pin for PWM output of cart one
 const int CART_TWO = 5;       //Pin for PWM output of cart two
